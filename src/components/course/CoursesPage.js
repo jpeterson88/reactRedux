@@ -63,6 +63,7 @@ function mapStateToProps(state, ownProps){
 	};
 }
 
+//maps dispatch() function to props
 function mapDispatchToProps(dispatch){
 	return{
 		actions: bindActionCreators(courseActions, dispatch)
